@@ -86,12 +86,12 @@
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LibraryPath>C:\Libraries\SC2API_Binary_vs2017\lib\;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Libraries\SC2API_Binary_vs2017\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\LLLL\sc2.git\build\bin;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\LLLL\sc2.git\include;E:\LLLL\sc2.git\build\generated;E:\LLLL\sc2.git\contrib\protobuf\src;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LibraryPath>C:\Libraries\SC2AI\sc2api_precompiled\lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Libraries\SC2AI\sc2api_precompiled\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\LLLL\sc2.git\build\bin;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\LLLL\sc2.git\include;E:\LLLL\sc2.git\build\generated;E:\LLLL\sc2.git\contrib\protobuf\src;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>

@@ -8,9 +8,9 @@
 
     "Game Info" :
     {
-        "BotRace"                   : "Random",
-        "EnemyRace"                 : "Random",
-        "MapFile"                   : "InterloperLE.SC2Map",
+        "BotRace"                   : "Terran",
+        "EnemyRace"                 : "Protoss",
+        "MapFile"                   : "Ladder2017Season3/InterloperLE.SC2Map",
         "StepSize"                  : 1
     },
         
