@@ -34,7 +34,7 @@ void GameCommander::onFrame()
 
 void GameCommander::drawDebugInterface()
 {
-    drawGameInformation(4, 1);
+    drawGameInformation(0, 0);
 }
 
 void GameCommander::drawGameInformation(int x, int y)
@@ -44,6 +44,8 @@ void GameCommander::drawGameInformation(int x, int y)
     ss << "Strategy: " << m_bot.Config().StrategyName << "\n";
     ss << "Map Name: " << "\n";
     ss << "Time: " << "\n";
+
+	m_bot.Map().drawTextScreen(sc2::Point2D(x, y), ss.str());
 }
 
 // assigns units to various managers
